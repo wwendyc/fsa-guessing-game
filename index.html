@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<!-- Bootstrap Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+
+    <title>Guessing Game</title>
+  </head>
+<body class="">
+
+      <div id="app" class="container-fluid center background">
+
+        <div id="headers">
+          <!-- Title and subtitles! -->
+          <h1>PLAY THE GUESSING GAME</h1>
+          <h3>Guess a number from 0-100!</h3>
+          <h2>...</h2>
+        </div>
+
+        <div id="main">
+          <div id="input-parent">
+            <!-- Player's guess input, and submit button -->
+            <div class="input-guess center">
+            	<input id="player-input" placeholder="0-100" maxlength="3"  autofocus=autofocus>
+            	<button type="image" class="button" id="submit">Submit</button>
+            </div>
+
+          </div>
+
+          <div id="guesses">
+            <!-- unordered list of guesses -->
+            <ul>
+            	<li class="guess">-</li>
+            	<li class="guess">-</li>
+            	<li class="guess">-</li>
+            	<li class="guess">-</li>
+            	<li class="guess">-</li>
+            </ul>
+
+          </div>
+
+          <div id="menu-btns">
+            <button class="button" id="reset">Reset</button>
+            <button class="button" id="hint">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id="footer" class="center">
+        <div class="row">
+          <div class="col-sm footer-elements">
+            <img src="images/fa-logo.png">
+          </div>
+
+          <div class="col-sm footer-elements">
+            <p>Project by Wendy Chang</p>
+          </div>
+
+          <div class="col-sm footer-elements">
+            <img src="images/grace_hopper_academy.png">
+          </div>
+
+
+        </div>
+    </div>
+
+	<!-- Bootstrap JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Guessing Game Script -->
+	<script src="js/GuessingGame.js"></script>
+</body>
+
+</html>

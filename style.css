@@ -1,0 +1,104 @@
+.background {
+	background: url(http://www.gsfdcy.com/data/img/84/2118409-super-mario-world-wallpaper.png) repeat-x;
+	background-size: 1100px;
+	background-position: center bottom;
+	background-color: #c2f0fd;
+	height: 100%;
+}
+
+.center {
+	text-align: center;
+}
+.button {
+	color: #fff;
+	border-radius: 10%;
+	border: 2px solid #000;
+	padding: 5px 15px;
+	margin: 10px 2px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+img {
+	display: inline;
+	width: 200px;
+}
+h1 {
+	font-family: 'Wendy One', sans-serif;
+	font-size: 50px;
+	background: -webkit-linear-gradient(#fcd658, #e05127);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 3px;
+   	-webkit-text-stroke-color: black;
+}
+h2 {
+	margin-bottom: 70px;
+}
+h3 {
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+	color: #ffffff;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'VT323', monospace;
+	font-size: 15px;
+}
+.input-guess {
+	background: url(https://vignette.wikia.nocookie.net/lapis/images/3/3c/Mario_8Bit.png/revision/latest?cb=20141110215924) no-repeat;
+	background-size: 180px;
+	background-position: top;
+	height: 230px;
+
+}
+.input-guess input {
+	height:28px;
+    line-height:28px;
+	margin: 80px 0 0 110px;
+	border-radius: 10%;
+}
+#submit {
+	height: 70px;
+	width: 70px;
+	background: -webkit-radial-gradient(#fecac6, #f21161);
+	color: #000;
+	border-radius: 50%;
+	margin: 0 0 0 20px;
+}
+.guess {
+	display: inline;
+	font-size: 30px;
+	border: 2px solid black;
+	background: #fff;
+	border-radius: 20%;
+	padding: 20px 30px;
+}
+#menu-btns {
+	margin-top: 50px;
+}
+#reset {
+	background-color: #dd491b;
+}
+#hint {
+	background-color: #9e6627;
+}
+#footer {
+	width: 100%;
+	border-top: solid 2px black;
+	background-color: white;
+	position: fixed;
+	padding: 10px 0;
+	bottom: 0;
+}
+.footer-elements {
+	margin: auto 0;
+}
